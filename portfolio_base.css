@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/*
+Author Name: Vanessa Yuen
+Date: 10 Apr 2022
+*/
+
+body
+{
+    background-color:rgb(216, 216, 193);
+    color: black;
+    font-size: 2em;
+    text-align: left;
+}
+
+
+h1
+{
+    font-size: 1em;
+    font-family: "Arial";
+    color:midnightblue;
+    /* margin-left: 1cm; */
+}
+
+h3{
+    font-size: 0.65em;
+    font-family: "Arial";
+    color:midnightblue;
+    line-height: 0.3;
+    text-decoration: underline;
+}
+
+h2{
+    font-size: 0.45em;
+    font-family: "Arial";
+    color:midnightblue;
+    line-height: 0.8;
+
+}
+
+h4{
+    font-size: 0.2em;
+    font-family: "Arial";
+    color:midnightblue;
+    line-height: 0.3;
+
+}
+
+p
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.75em;
+}
+
+.info p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+    background-color: darkblue;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.skills>ul>li, .schoolprojects>ul>li, .workexperience>ul>li{
+    list-style-type: disc;
+    /* background-color: white; */
+}
+
+li
+{
+
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+}
+
+.grid-container>p>ul{
+    list-style-type: circle;
+}
+
+.rounded-list a{
+    background-color: grey;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+a:link
+{
+    color: midnightblue;
+}
+
+a:visited
+{
+    color: white;
+}
+
+strong{
+    font-weight:bold;
+    font-size: 0.75em;
+    line-height: 50pt;
+    text-indent: 30pt;
+
+}
+
+
+.boldtext{
+    font-weight: bold;
+}
+
+/* added styles to fix font size */
+.data-viz, .text-analysis {
+    font-size: 1em;
+    font-weight: bold;
+}

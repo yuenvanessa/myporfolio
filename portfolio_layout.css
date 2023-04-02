@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*
+Author Name: Vanessa Yuen
+Date: 10 Apr 2022
+*/
+
+/* Window and Body Styles */
+html{
+   height: 100%;
+   width: 100%;
+  
+}
+
+
+h3{
+   font-size: 0.8em;
+   font-family: "Arial";
+   color:midnightblue;
+   line-height: 0.3;
+
+}
+
+/* tablet*/
+@media only screen and (max-width:769px){
+   .rounded-list a{
+      display:flex;
+      margin: 5px;
+   }
+   .rounded-list li{
+      display: block;
+      width: auto;
+      float: left;
+   }
+ 
+  .grid-container{
+     display: grid;
+     grid-template-columns: 4fr 5fr 5fr;
+     margin: 30px;
+     margin-top: 10px;
+     background-color: white;
+  }
+ 
+ .info{
+     grid-row: 1/ span 2;
+     grid-column: 1/ span 1;
+     padding-left: 5%;
+     padding-right: 5%;
+ 
+  }
+ 
+  .skills{
+      grid-row: 1;
+      grid-column: 2;
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+ 
+  .schoolprojects{
+      grid-row: 1;
+      grid-column: 3;
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+ 
+  .workexperience{
+      grid-row: 2;
+      grid-column: 2/ span 2;
+      padding-left: 5%;
+      padding-right: 5%;
+  }
+ 
+ }
+
+ 
+
+/* phone */
+@media only screen and (max-width: 480px){
+   html{
+      width: 100%;
+   }
+   .grid-container{
+      display: unset;
+    }
+    .rounded-list a{
+      display:flex;
+      margin: 5px;
+
+   }
+}
+
+
+/* desktop/wider screens */
+@media only screen and (min-width:769px){
+   html body{
+      height: 100%;
+      width: 100%;
+      max-width: 1020px;
+      min-width: 640px;
+     }
+   .rounded-list a{
+      display:flex;
+      margin: 5px;
+   }
+   .rounded-list li{
+      display: block;
+      width: auto;
+      float: left;
+   }
+   .grid-container{
+      display: grid;
+      grid-template-columns: 4fr 5fr 5fr;
+      margin: 30px;
+      margin-top: 10px;
+      background-color: white;
+   }
+ 
+   .info{
+      grid-row: 1/ span 2;
+      grid-column: 1/ span 1;
+      padding-left: 5%;
+      padding-right: 5%;
+ 
+   }
+ 
+   .skills{
+       grid-row: 1;
+       grid-column: 2;
+       padding-left: 5%;
+       padding-right: 5%;
+   }
+ 
+   .schoolprojects{
+       grid-row: 1;
+       grid-column: 3;
+       padding-left: 5%;
+       padding-right: 5%;
+   }
+ 
+   .workexperience{
+       grid-row: 2;
+       grid-column: 2/ span 2;
+       padding-left: 5%;
+       padding-right: 5%;
+   }
+ }

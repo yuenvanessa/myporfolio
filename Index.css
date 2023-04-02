@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/*
+Author Name: Vanessa Yuen
+Date: 10 Apr 2022
+*/
+
+html{
+   height: 100%;
+   margin: auto auto;
+	width: 100%;
+}
+
+img{
+   width: 100%;
+   height: 100%;
+}
+
+h3{
+   font-size: 0.8em;
+   font-family: "Arial";
+   color:midnightblue;
+   line-height: 0.3;
+
+}
+
+
+
+/* tablet*/
+@media only screen and (max-width:769px){
+   html body{
+      max-width: 1020px;
+      height: 640px;
+   }
+   ul.rounded-list {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    ul.rounded-list li {
+      flex-basis: calc(16.66% - 10px);
+      margin-bottom: 10px;
+      text-align: center;
+    }
+   .rounded-list a{
+      display:flex;
+      margin: 5px;
+   }
+   .rounded-list li{
+      display: block;
+      width: auto;
+      float: left;
+   }
+}
+
+/* Phone */
+@media only screen and (max-width: 480px){
+   .rounded-list a{
+      display:flex;
+      margin: 5px;
+   }
+}
+
+/* desktop/wider screens */
+@media only screen and (min-width:769px){
+   html body{
+      max-width: 1020px;
+      height: 640px;
+   }
+   .rounded-list a{
+      display:flex;
+      margin: 5px;
+   }
+   .rounded-list li{
+      display: block;
+      width: auto;
+      float: left;
+   }
+   .grid-container{
+      display: grid;
+      grid-template-columns: 4fr 5fr 5fr;
+      margin: 30px;
+      margin-top: 10px;
+      background-color: white;
+   }
+}
+ 
+
+
+ 
